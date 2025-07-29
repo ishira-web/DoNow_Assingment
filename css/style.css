@@ -36,6 +36,7 @@ body {
     max-width: 1700px;
     margin: 0 auto;
     padding: 0 20px;
+    margin-top: 1rem;
 }
 
 #navbar__logo {
@@ -64,15 +65,16 @@ body {
 
 .navbar__links {
     font-family: Helvetica, sans-serif;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     font-weight: 600;
     color: #ffffff;
     text-decoration: none;
     cursor: pointer;
-    padding: 0 1rem;
+    padding: 0 1.5rem;
     height: 100%;
     display: flex;
     align-items: center;
+    letter-spacing: 2px;
 }
 
 .navbar__toggle {
@@ -137,7 +139,6 @@ body {
     justify-content: space-between;
     max-width: 1650px;
     width: 100%;
-    gap: 1rem;
     margin-bottom: 0;
 }
 
