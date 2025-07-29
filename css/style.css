@@ -3,3 +3,14 @@
     margin: 0;
     padding: 0;
 }
+/* Font Family Setup */
+@font-face {
+    font-family: "Helvetica";
+    src: url(/fonts/HELVETICANEUE-THIN.OTF) format("opentype");
+}
+
+.navbar {
+    height: 80px;
+    display: flex;
+    background: linear-gradient(90deg,#4457fd  0%,  #63d3e3 100%);
+}
